@@ -1,0 +1,44 @@
+{
+  "groups": [
+    {
+      "name": "leo.mybatis-plus",
+      "type": "org.leo.energy.service.boot.props.MybatisPlusProperties",
+      "sourceType": "org.leo.energy.service.boot.props.MybatisPlusProperties"
+    },
+    {
+      "name": "service.secure",
+      "type": "org.leo.energy.service.boot.security.prop.SecureProperties",
+      "sourceType": "org.leo.energy.service.boot.security.prop.SecureProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "leo.mybatis-plus.overflow",
+      "type": "java.lang.Boolean",
+      "description": "溢出总页数后是否进行处理",
+      "sourceType": "org.leo.energy.service.boot.props.MybatisPlusProperties"
+    },
+    {
+      "name": "leo.mybatis-plus.page-limit",
+      "type": "java.lang.Long",
+      "description": "分页最大数",
+      "sourceType": "org.leo.energy.service.boot.props.MybatisPlusProperties"
+    },
+    {
+      "name": "service.secure.client",
+      "type": "java.util.List<org.leo.energy.service.boot.security.prop.ClientSecure>",
+      "sourceType": "org.leo.energy.service.boot.security.prop.SecureProperties"
+    },
+    {
+      "name": "service.secure.enable-secure-interceptor",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.leo.energy.service.boot.security.prop.SecureProperties"
+    },
+    {
+      "name": "service.secure.skip-url",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.leo.energy.service.boot.security.prop.SecureProperties"
+    }
+  ],
+  "hints": []
+}

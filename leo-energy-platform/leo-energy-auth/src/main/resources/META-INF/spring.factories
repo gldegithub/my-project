@@ -1,0 +1,2 @@
+org.leo.energy.launch.service.LauncherService=\
+   org.leo.energy.auth.launcher.AuthLauncherServiceImpl

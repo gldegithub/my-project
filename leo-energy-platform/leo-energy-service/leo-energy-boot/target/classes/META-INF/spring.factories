@@ -1,0 +1,9 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.leo.energy.service.boot.config.MybatisPlusConfiguration,\
+  org.leo.energy.service.boot.config.RedisTemplateConfiguration,\
+  org.leo.energy.service.boot.config.Knife4jConfiguration,\
+  org.leo.energy.service.boot.config.ToolConfiguration,\
+  org.leo.energy.service.boot.security.conf.SecurityAutoConfiguration,\
+  org.leo.energy.service.boot.exception.ExceptionGlobeAutoConfiguration
+org.leo.energy.launch.service.LauncherService=\
+  org.leo.energy.service.boot.launcher.BootstrapServiceImpl

@@ -1,0 +1,4 @@
+org.leo.energy.launch.service.LauncherService=\
+  org.leo.energy.launch.service.impl.DefaultLauncherServiceImpl
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.leo.energy.launch.config.LaunchParamsAutoConfiguration
